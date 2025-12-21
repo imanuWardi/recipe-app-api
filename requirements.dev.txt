@@ -1,1 +1,3 @@
-flake8>=3.9.2,<3.10
+flake8>=7.0,<8.0
+black>=24.4.2   #baru
+pre-commit>=3.0,<4.0    #baru
