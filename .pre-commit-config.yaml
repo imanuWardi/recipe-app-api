@@ -11,6 +11,4 @@ repos:
       - id: flake8
         language_version: python3.12
         args:
-          - --max-line-length=88
-          - --extend-ignore=E203,W503
-          - --exclude=*/migrations/*,__pycache__,manage.py,settings.py
+          - --config=.flake8
